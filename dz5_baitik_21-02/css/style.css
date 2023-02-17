@@ -1,0 +1,134 @@
+.main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url('../images/image-main.jpg') no-repeat top center;
+    background-size: cover;
+}
+.main h1 {
+    font-size: 56px;
+    line-height: 73px;
+    color: #ffffff;
+}
+.main p {
+    width: 870px;
+    margin: 24px auto 49px;
+    /*font-size: 16px;*/
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.info {
+    margin-top: -96px;
+    margin-bottom: 128px;
+}
+.info__inner {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 88px;
+    box-shadow: 0 11px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+.info__item {
+    display: flex;
+}
+.info__item .top {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 700;
+}
+.info__item .bottom {
+    font-size: 16px;
+    line-height: 25px;
+    color: #086CF9;
+}
+.info__item img {
+    width: 72px;
+    margin-right: 24px;
+}
+
+
+.inner{
+    margin: 0 auto;
+    position: absolute;
+    width: 1145px;
+    height: 433px;
+    left: 151px;
+    right: 151px;
+    /*top: 1082px;*/
+
+}
+.inner_one {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: absolute;
+    right: 54.67%;
+}
+.inner h2 {
+    font-size: 48px;
+    text-align: left;
+}
+.inner_one p {
+    height: 56px;
+    width: 489px;
+}
+.inner_one span {
+    font-size: 16px;
+    line-height: 25px;
+    height: 125px;
+    width: 478px;
+}
+.inner_two{
+    position: absolute;
+    left: 48.35%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 4px;
+    background: url("../images/pexels-monstera.jpg.jpg")  no-repeat top center;
+}
+.image a{
+    position: absolute;
+    left: 71.09%;
+    right: 22.31%;
+    top: 39.72%;
+    bottom: 41.8%;
+   border-radius: 50px;
+    background: white;
+}
+
+.similars{
+    position: absolute;
+    height: 389px;
+    left: 144px;
+    top: 1643px;
+}
+.similar__block{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.similars h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.similars p{
+    width: 423px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
